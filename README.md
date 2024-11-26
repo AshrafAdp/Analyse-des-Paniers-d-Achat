@@ -1,22 +1,24 @@
 
-### Description
-Ce projet permet de créer un outil d'analyse pour un administrateur de site e-commerce, en fournissant des statistiques simples sur les produits les plus vendus, la répartition des ventes par catégorie, et les tendances de vente.
+## Description
 
-## Fonctionnalités
+Ce projet se compose de deux parties principales :
+- **Backend** : Un serveur Node.js avec Express.js pour gérer les produits, les ventes, et les analyses des données.
+- **Frontend** : Une interface utilisateur développée en Vue.js pour visualiser les données et analyser les ventes et les produits.
 
-### Frontend (Vue3)
-- **Tableau de Bord** avec les statistiques principales :
-  - Ventes totales pour une période donnée.
-  - Top 5 des produits les plus vendus par quantité.
-  - Répartition des ventes par catégorie.
-  - Liste des produits avec détails (nom, prix, nombre de ventes, date d'ajout).
-  
-- **Visualisations** :
-  - Graphiques à barres et graphiques en secteurs pour la répartition des ventes par catégorie.
-  - Histogramme pour afficher les ventes par produit.
+## Technologies utilisées
 
-- **Filtres** :
-  - Sélection de la période (derniers 7 jours, 30 jours, 12 mois).
+- **Backend** : Node.js, Express.js, MongoDB
+- **Frontend** : Vue.js
+- **Base de données** : MongoDB
+
+## Installation
+
+### Prérequis
+
+- Node.js installé (version 14 ou supérieure)
+- MongoDB installé ou une instance MongoDB en ligne
+
+
 
 ### Backend (Node.js + TypeScript)
 #### Endpoints API
@@ -47,7 +49,7 @@ Ce projet permet de créer un outil d'analyse pour un administrateur de site e-c
 
 1. Clonez ce repository :
    ```bash
-   git clone https://github.com/votre-username/outil-analyse-paniers.git
+   git clone https://github.com/AshrafAdp/Analyse-des-Paniers-d-Achat.git
    ```
 
 2. Installez les dépendances :
